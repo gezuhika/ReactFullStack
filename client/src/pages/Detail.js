@@ -134,7 +134,7 @@ class Detail extends Component {
                                 placeholder="Email (Optional)"
                             />
                             <TextArea
-                                value={this.state.email}
+                                value={this.state.message}
                                 onChange={this.handleInputChange}
                                 rows="5"
                                 name="message"
