@@ -20,5 +20,9 @@ export default {
 
     updateInmate: function (id, inmateData) {
         return axios.put(`/api/inmates/${id}`, inmateData);
+    },
+
+    pinched: function(id) {
+        return axios.post(`/api/inmates/${id}/pinched`);
     }
 };
